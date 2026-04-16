@@ -1,5 +1,5 @@
 ---
-id: autoencoder_0001
+id: autoencoder-suitcase
 title: "Autoencoders: Compression, Loss, and the Suitcase"
 date: 2026-04-16
 category: machine learning
