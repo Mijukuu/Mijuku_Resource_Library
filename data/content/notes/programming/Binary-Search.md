@@ -1,5 +1,5 @@
 ---
-id: first-note
+id: binary-note
 title: "Understanding Binary Search"
 date: 2026-04-16
 category: programming

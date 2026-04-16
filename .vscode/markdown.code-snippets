@@ -1,0 +1,20 @@
+{
+  "Mijuku Note Frontmatter": {
+    "prefix": "mnote",
+    "body": [
+      "---",
+      "id: ${1:note-id}",
+      "title: \"${2:Note Title}\"",
+      "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "category: ${3:programming}",
+      "tags: [${4:tag1}, ${5:tag2}]",
+      "summary: \"${6:Short summary}\"",
+      "status: ${7:draft}",
+      "---",
+      "",
+      "## Idea",
+      "$0"
+    ],
+    "description": "Insert Mijuku note frontmatter template"
+  }
+}
