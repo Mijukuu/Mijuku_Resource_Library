@@ -144,16 +144,9 @@ These are not required yet but may be introduced later.
 
 The body of the note is written in Markdown.
 
-Suggested structure:
-
-The Idea
-Explanation
-Insight
-Examples
-Personal Notes
-
 **This structure is flexible and not enforced.**
 
+Suggested structure:
 ---
 
 ## Example Note
