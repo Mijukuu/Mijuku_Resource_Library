@@ -6,7 +6,7 @@ def discover_notes(notes_root: str):
 
     for file in root.rglob("*.md"):
         note_record = {
-            "path": str(file.relative_to(root)),
+            "path": file.relative_to(root).as_posix(),
             "filename": file.name,
             "slug": file.stem,
             "category": file.parent.name
