@@ -3,18 +3,51 @@
     "path": "calculus/Derivatives.md",
     "filename": "Derivatives.md",
     "slug": "Derivatives",
-    "category": "calculus"
+    "id": "derivative-intuition",
+    "title": "Derivatives: From Average Change to Instantaneous Change",
+    "date": "2026-04-16",
+    "category": "calculus",
+    "tags": [
+      "derivatives",
+      "limits",
+      "rate-of-change"
+    ],
+    "summary": "Understanding derivatives as the transition from average change to instnataneous change",
+    "status": "draft",
+    "content": "## The Idea\n\nA derivative answers a simple question:\n\n> How fast is something changing right now?\n\nBut “right now” is tricky.\n\nBecause we usually measure change over an interval.\n\n---\n\n## Average Change\n\nIf we take two points on a function:\n\nf(a) and f(b)\n\nThe average rate of change is:\n\n(f(b) - f(a)) / (b - a)\n\nThis is just the slope of a line between two points.\n\n---\n\n## The Problem\n\nThis only tells us how things change **over time**.\n\nNot at a single instant.\n\nSo the question becomes:\n\n> What happens if the interval gets smaller and smaller?\n\n---\n\n## The Key Insight\n\nWe let:\n\nb → a\n\nSo the interval shrinks.\n\nAs the two points get closer, the line between them becomes more accurate.\n\nEventually, it becomes a **tangent line**.\n\n---\n\n## Instantaneous Change\n\nThe derivative is:\n\n> the limit of the average rate of change as the interval approaches zero\n\nSo instead of:\n\n“how much did it change over time?”\n\nWe get:\n\n> “how fast is it changing at this exact moment?”\n\n---\n\n## Why This Matters\n\nThis idea shows up everywhere:\n\n- velocity → rate of change of position\n- acceleration → rate of change of velocity\n- optimization → finding maximum/minimum values\n\n---\n\n## Insight\n\nThe derivative is not just a formula.\n\nIt is a process:\n\n> zooming in until change becomes precise\n\n---\n\n## Personal Note\n\nWhat clicked for me is that:\n\nYou can’t directly measure an instant.\n\nBut you can **approach it**.\n\nAnd that’s what calculus does.\n\nIt turns:\n\n> “impossible to measure”\n\ninto:\n\n> “possible to approximate infinitely well”"
   },
   {
     "path": "machine-learning/Autoencoders.md",
     "filename": "Autoencoders.md",
     "slug": "Autoencoders",
-    "category": "machine-learning"
+    "id": "autoencoder-suitcase",
+    "title": "Autoencoders: Compression, Loss, and the Suitcase",
+    "date": "2026-04-16",
+    "category": "machine learning",
+    "tags": [
+      "autoencoders",
+      "representation-learning",
+      "neural_networks",
+      "unsupervised_learning"
+    ],
+    "summary": "Understanding autoencoders through compression and reconstruction using a suitcase analogy.",
+    "status": "draft",
+    "content": "## The Idea\n\nI think of autoencoders like packing a suitcase.\n\nYou have something large and detailed — data — and you want to compress it into a smaller form so it can be stored or transported efficiently.\n\nThen later, you unpack it.\n\nBut when you unpack it, it’s not exactly the same as how it was before.\n\n---\n\n## The Structure\n\nAn autoencoder has two parts:\n\n- **Encoder** → compresses input into a smaller representation (latent space)\n- **Decoder** → reconstructs the input from that compressed form\n\nSo:\n\ninput → encoder → latent representation → decoder → reconstructed output\n\n---\n\n## The Tradeoff\n\nCompression always introduces loss.\n\nThe model is forced to decide:\n\n> what information is essential?\n\nEverything else gets discarded.\n\nSo the reconstructed output is:\n\n- similar to the original\n- but not identical\n\nThis is the “loss” in the suitcase.\n\n---\n\n## Why This Is Powerful\n\nThe model learns:\n\n- structure in the data\n- patterns and regularities\n- what matters vs what doesn’t\n\nInstead of memorizing, it learns a **compressed representation** of the data.\n\n---\n\n## Latent Space\n\nThe compressed representation is called the **latent space**.\n\nThis is not just smaller — it’s meaningful.\n\nPoints that are close in latent space represent similar inputs.\n\nSo the model is not just compressing — it is organizing the data.\n\n---\n\n## Insight\n\nLearning is compression.\n\nAn autoencoder doesn’t just store data.\n\nIt forces the model to answer:\n\n> “What is the simplest way to represent this?”\n\n---\n\n## Extensions\n\n- Denoising autoencoders → learn to reconstruct clean data from noisy input\n- Variational autoencoders → impose structure on the latent space\n- Used for dimensionality reduction, feature learning, anomaly detection\n\n---\n\n## Personal Note\n\nThe suitcase analogy helps me understand that:\n\n- compression is intentional\n- loss is unavoidable\n- reconstruction is approximate\n\nAnd that learning itself might just be a process of:\n\n> keeping what matters and letting the rest go"
   },
   {
     "path": "programming/Binary-Search.md",
     "filename": "Binary-Search.md",
     "slug": "Binary-Search",
-    "category": "programming"
+    "id": "binary-note",
+    "title": "Understanding Binary Search",
+    "date": "2026-04-16",
+    "category": "programming",
+    "tags": [
+      "algorithms",
+      "search"
+    ],
+    "summary": "A basic walkthrough of how binary search works and why it is efficient.",
+    "status": "draft",
+    "content": "## Idea\n\nBinary search works by repeatedly dividing a sorted array in half.\n\n## Why it works\n\nAt each step, you eliminate half of the remaining elements.\n\n## Complexity\n\nTime complexity: O(log n)\n\n## Notes\n\n- Requires sorted input\n- Very efficient compared to linear search"
   }
 ]
