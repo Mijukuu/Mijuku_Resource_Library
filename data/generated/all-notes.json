@@ -1,0 +1,20 @@
+[
+  {
+    "path": "calculus/Derivatives.md",
+    "filename": "Derivatives.md",
+    "slug": "Derivatives",
+    "category": "calculus"
+  },
+  {
+    "path": "machine-learning/Autoencoders.md",
+    "filename": "Autoencoders.md",
+    "slug": "Autoencoders",
+    "category": "machine-learning"
+  },
+  {
+    "path": "programming/Binary-Search.md",
+    "filename": "Binary-Search.md",
+    "slug": "Binary-Search",
+    "category": "programming"
+  }
+]
