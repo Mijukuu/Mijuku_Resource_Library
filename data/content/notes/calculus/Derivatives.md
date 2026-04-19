@@ -4,7 +4,7 @@ title: "Derivatives: From Average Change to Instantaneous Change"
 date: 2026-04-16
 category: calculus
 tags: [derivatives, limits, rate-of-change]
-summary: "Understanding derivatives as the transition from average change to instnataneous change"
+summary: "Understanding derivatives as the transition from average change to instantaneous change"
 status: draft
 ---
 

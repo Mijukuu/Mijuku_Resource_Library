@@ -2,6 +2,9 @@ from pathlib import Path
 import json
 import yaml
 
+# build_note_index.py
+# This file ingests Markdown Notes File and Returns JSON all-notes file which is consumable to render html.
+
 def discover_notes(notes_root: str):
     root = Path(notes_root)
     note_records = []
@@ -39,10 +42,11 @@ def discover_notes(notes_root: str):
             # date: 2026-04-16
             # category: calculus
             # tags: [derivatives, limits, rate-of-change]
-            # summary: "Understanding derivatives as the transition from average change to instnataneous change"
+            # summary: "Understanding derivatives as the transition from average change to instantaneous change"
             # status: draft
             # ---
 
+            # Build the note data:
             note_record = {
                 "path": relative_path,
                 "filename": file.name,
@@ -56,7 +60,6 @@ def discover_notes(notes_root: str):
                 "status": loaded_metadata['status'],
                 "content": content
             }
-
             note_records.append(note_record)
 
         except ValueError as e:
