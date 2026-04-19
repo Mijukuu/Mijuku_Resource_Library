@@ -1,4 +1,4 @@
-# Mijuku
+# Mijuku Resource Library
 
 A living system for notes, code, writing, and experiments.
 
